@@ -1,0 +1,38 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Smooth scrolling for anchor links */
+a[href^="#"] {
+  scroll-margin-top: 100px;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  @apply bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text;
+}
+
+/* Button styles */
+.btn-primary {
+  @apply bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-4 rounded-md transition hover:opacity-90;
+}
+
+.btn-outline {
+  @apply py-2 px-4 rounded-md border border-orange-500 text-orange-500 transition hover:bg-orange-500/10;
+}
