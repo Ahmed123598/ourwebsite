@@ -17,8 +17,8 @@ const Navbar = () => {
         
         {/* Logo & Branding */}
         <div className="flex items-center flex-shrink-0">
-          <img className="h-12 w-12 mr-3" src={logo} alt="Logo" />
-          <Link to="/" className="text-2xl font-semibold tracking-wide">Tajix</Link>
+          {/* <img className="h-12 w-12 mr-3" src={logo} alt="Logo" /> */}
+          <Link to="/" className="text-2xl font-semibold tracking-wide">Robust Ark Tech</Link>
         </div>
 
         {/* Desktop Navigation */}
