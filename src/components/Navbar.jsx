@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import logo from "../assets/logo.png";
+
+// Import your updated logo image
+import logo from "../assets/hi.png";
 import { navItems } from "../constants";
 
 const Navbar = () => {
@@ -17,8 +19,11 @@ const Navbar = () => {
         
         {/* Logo & Branding */}
         <div className="flex items-center flex-shrink-0">
-          {/* <img className="h-12 w-12 mr-3" src={logo} alt="Logo" /> */}
-          <Link to="/" className="text-2xl font-semibold tracking-wide">Robust Ark Tech</Link>
+          <img
+            src={logo}
+            alt="Robust Ark Technologies Logo"
+         className="h-12 sm:h-20 md:h-20 w-auto object-contain"
+          />
         </div>
 
         {/* Desktop Navigation */}

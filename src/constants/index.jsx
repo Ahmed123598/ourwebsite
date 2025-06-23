@@ -87,7 +87,7 @@ export const portfolioItems = [
     category: "Web Application",
     technologies: ["React", "Node.js", "MongoDB", "Stripe"],
     github: "https://github.com/yourusername/ecommerce-project",
-    liveLink: "https://your-ecommerce-demo.com"
+    liveLink: "https://myprojectsa.netlify.app/"
   },
   {
     title: "Business Dashboard",

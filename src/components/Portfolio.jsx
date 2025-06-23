@@ -43,10 +43,10 @@ const Portfolio = () => {
 
             {/* Links to Code & Live Demo */}
             <div className="flex justify-between mt-5">
-              <a href={github} target="_blank" rel="noopener noreferrer" className="flex items-center text-orange-500 hover:text-orange-400 transition">
+              {/* <a href={github} target="_blank" rel="noopener noreferrer" className="flex items-center text-orange-500 hover:text-orange-400 transition">
                 <Code className="mr-2" size={18} />
                 Code
-              </a>
+              </a> */}
               <a href={liveLink} target="_blank" rel="noopener noreferrer" className="flex items-center text-orange-500 hover:text-orange-400 transition">
                 <ExternalLink className="mr-2" size={18} />
                 Live Demo
