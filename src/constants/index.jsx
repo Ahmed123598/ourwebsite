@@ -81,40 +81,40 @@ export const testimonials = [
 // Add to src/constants.js
 export const portfolioItems = [
   {
-    title: "E-commerce Platform",
+    title: "Portfolio",
     description: "Full-featured online store with cart, checkout, and payment processing",
     image: "https://images.unsplash.com/photo-1607082350899-7e105aa886ae?q=80&w=500&auto=format&fit=crop",
     category: "Web Application",
     technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-    github: "https://github.com/yourusername/ecommerce-project",
+    
     liveLink: "https://myprojectsa.netlify.app/"
   },
   {
-    title: "Business Dashboard",
+    title: "Health Care",
     description: "Analytics dashboard for tracking business metrics and KPIs",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=500&auto=format&fit=crop",
     category: "Dashboard",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Chart.js"],
     github: "https://github.com/yourusername/dashboard-project",
-    liveLink: "https://your-dashboard-demo.com"
+    liveLink: "https://pharbetter.com/"
   },
   {
-    title: "Travel Booking App",
+    title: "Madarsa",
     description: "Mobile-first travel booking platform with search and filtering",
     image: "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?q=80&w=500&auto=format&fit=crop",
     category: "Travel",
     technologies: ["Next.js", "Firebase", "Mapbox", "Tailwind CSS"],
     github: "https://github.com/yourusername/travel-app",
-    liveLink: "https://your-travel-demo.com"
+    liveLink: "https://jimq.in/"
   },
   {
-    title: "Fitness Tracker",
+    title: "Login page",
     description: "Workout tracking app with progress visualization and routines",
     image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=500&auto=format&fit=crop",
     category: "Health & Fitness",
     technologies: ["React Native", "Express", "MongoDB", "Redux"],
     github: "https://github.com/yourusername/fitness-app",
-    liveLink: "https://your-fitness-demo.com"
+    liveLink: "https://tiny-dragon-5890f7.netlify.app/"
   },
   {
     title: "Restaurant Website",
